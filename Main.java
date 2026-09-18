@@ -24,7 +24,7 @@ public class Main {
         }
 
         for(Student student : students) {
-            studenta.checkPassed();
+            students.checkPassed();
         }
 
         double totalScore = 0;
