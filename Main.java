@@ -13,18 +13,18 @@ public class Main {
         for(int i = 0; i < studentLenght ; i++) {
             System.out.println("\nData siswa ke-" + (i + 1));
             
-            System.out.println("Nama : ");
+            System.out.print("Nama : ");
             String name = input.nextLine();
             
-            System.out.println("Nilai : ");
-            double = input.nextLine();
+            System.out.print("Nilai : ");
+            double score = input.nextLine();
             
             Student student = new Student(name, score);
             student.add(student);
         }
 
         for(Student student : students) {
-            student.checkPassed();
+            studenta.checkPassed();
         }
 
         double totalScore = 0;
